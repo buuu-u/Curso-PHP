@@ -1,4 +1,4 @@
-<html>
+<html lang="">
 <head>
     <title>Operator</title>
 
@@ -39,8 +39,8 @@
             <td><input type="text" name="nombreUsuario" id="nombreUsuario"></td>
         </tr>
         <tr>
-            <td><label for="edadUsuario">Edad:</label></td>
-            <td><input type="number" name="edadUsuario" id="edadUsuario"></td>
+            <td><label for="contra">Contraseña:</label></td>
+            <td><input type="text" name="contra" id="contra"></td>
         </tr>
         <tr>
             <td>&nbsp;</td>

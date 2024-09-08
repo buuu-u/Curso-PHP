@@ -2,24 +2,24 @@
 
 if (isset($_POST["enviando"])){
 
-    $edad = $_POST["edadUsuario"];
+    $contra = $_POST["contra"];
     $nombre = $_POST["nombreUsuario"];
 
-    switch ($nombre){
+    switch (true){
 
-        case "Pedro":
+        case $nombre=="Pedro" && $contra=="1234":
             echo "Bienvenido Pedro. Puedes acceder";
             break;
-        case "Juan":
+        case $nombre=="Juan" && $contra=="5555":
                 echo "Bienvenido Juan. Puedes acceder";
                 break;
 
-        case "Maria":
-            echo "Bienvida Maria. Puedes acceder";
+        case $nombre=="Maria" && $contra=="1111":
+            echo "Bienvenida Maria. Puedes acceder";
             break;
 
         default:
-                echo "Usted no es Pedro, Juan ni Maria";
+                echo "Usted no es Pedro, Juan, ni Maria";
                 break;
 
     }

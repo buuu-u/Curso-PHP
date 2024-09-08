@@ -12,7 +12,7 @@ if (isset($_POST["enviando"])){
     }
     */
 
-    $resultado = $nombre == "Juan" && $contra == "12345" ? "Puedes acceder" : "No puede acceder";
+    $resultado = $nombre == "Juan" && $contra == "1234" ? "Puedes acceder" : "No puede acceder";
 
     echo $resultado;
 }
