@@ -1,4 +1,4 @@
-<html>
+<html lang="">
 <head>
     <title>Function</title>
 </head>
