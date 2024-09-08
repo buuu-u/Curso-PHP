@@ -4,7 +4,7 @@ if (isset($_POST["enviando"])){
 
     $edad = $_POST["edadUsuario"];
 
-    if($edad <= 18){
+    if($edad < 18){
         echo "Usted es menor de edad";
     } else if($edad <= 40){
         echo "Usted es un adulto joven";

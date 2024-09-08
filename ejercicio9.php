@@ -35,11 +35,11 @@
     <form action="operadores.php" method="post" name="datosUsuario" id="datosUsuario">
         <table align="center">
             <tr>
-                <td>Nombre:</td>
-                <td><input type="text" name="nombreUsuario" id="usuario"></td>
+                <td><label for="edadUsuario">Nombre:</label></td>
+                <td><input type="text" name="nombreUsuario" id="nombreusuario"></td>
             </tr>
             <tr>
-                <td>Edad:</td>
+                <td><label for="edadUsuario">Edad:</label></td>
                 <td><input type="number" name="edadUsuario" id="edadUsuario"></td>
             </tr>
             <tr>

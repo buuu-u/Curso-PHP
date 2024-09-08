@@ -30,17 +30,17 @@
 
 <body>
 <h1>
-    CONDICIONALES I
+    CONDICIONALES II
 </h1>
-<form action="funcionejercicio15.php" method="post" name="datosUsuario" id="datosUsuario">
+<form action="funcionejercicio16.php" method="post" name="datosUsuario" id="datosUsuario">
     <table align="center">
         <tr>
             <td><label for="nombreUsuario">Nombre:</label></td>
             <td><input type="text" name="nombreUsuario" id="nombreUsuario"></td>
         </tr>
         <tr>
-            <td><label for="edadUsuario">Edad:</label></td>
-            <td><input type="number" name="edadUsuario" id="edadUsuario"></td>
+            <td><label for="contra">Contraseña:</label></td>
+            <td><input type="text" name="contra" id="contra"></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
