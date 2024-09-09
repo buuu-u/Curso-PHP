@@ -2,13 +2,10 @@
 
     class Car
     {
-        public int $ruedas;
-        public string $color;
-        public int $motor;
-        public function __construct($ruedas, $color, $motor){
-            $this->ruedas = $ruedas;
-            $this->color = $color;
-            $this->motor = $motor;
+        public function __construct(
+            public int $ruedas,
+            public string $color,
+            public int $motor){
         }
 
         function arrancar(){
