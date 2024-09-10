@@ -50,9 +50,9 @@ class Camion extends Car{
         parent::__construct($ruedas, $color, $motor);
     }
 
-    function setColor($colorCamion)
+    function setColor($colorAuto)
     {
-        $this->color = $colorCamion;
+        $this->color = $colorAuto;
         return "El camión es de color $this->color<br>";
     }
 
