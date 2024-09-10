@@ -2,7 +2,7 @@
 
 class buyCar{
 
-    private static $discount = 4500;
+    private static $discount = 0;
 
     public function __construct(
         private string $gama,
@@ -16,6 +16,12 @@ class buyCar{
             $this->priceBase = 30000;
         } else {
             return 'Gama no valid';
+        }
+    }
+
+    static function applyDiscount(){
+        if(date("m-d-y") > "09-01-2024"){
+            self::$discount = 4500;
         }
     }
 

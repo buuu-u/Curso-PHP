@@ -7,7 +7,10 @@
 <?php
 include ('claseejercicio28.php');
 
+
 $antonio = new buyCar("Midsize");
+
+buyCar::applyDiscount();
 
 $antonio -> climatizador();
 
